@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 int randomval= (int)(Math.random()*(sk1.getProgress())) + 1;
                 //Toast.makeText(getApplicationContext(),String.valueOf(randomval), Toast.LENGTH_LONG).show();
                 t1.setText(""+randomval);
