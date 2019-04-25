@@ -67,7 +67,7 @@
 
     <SeekBar
         android:id="@+id/Sb1"
-        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        style="@android:style/Widget.DeviceDefault.Light.SeekBar"
         android:layout_width="348dp"
         android:layout_height="50dp"
         android:layout_marginStart="90dp"
@@ -77,6 +77,7 @@
         android:layout_marginBottom="35dp"
         android:max="10"
         android:progress="0"
+        android:scrollbarStyle="outsideOverlay"
         app:layout_constraintBottom_toTopOf="@+id/B1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
